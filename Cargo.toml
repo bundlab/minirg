@@ -2,6 +2,9 @@
 name = "minirg"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "A fast line-oriented recursive regex search tool inspired by ripgrep"
+repository = "https://github.com/bundlab/minirg"
 
 [dependencies]
 clap = { version = "4.4", features = ["derive"] }
